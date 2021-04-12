@@ -1,0 +1,9 @@
+[user]
+	email = maxime.gelle@gmail.com
+	name = magelle
+[push]
+	default = current
+[core]
+	autocrlf = input
+[alias]
+	cmp = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"
